@@ -22,7 +22,7 @@ runConfig:
   # - variable: MY_SECRET
   #   secret: mySecretRef
 env:
-  - variable: SENDGRID_API_KEY
-    secret: SENDGRID_API_KEY
-  - variable: GEMINI_API_KEY
-    secret: GEMINI_API_KEY
+  - variable: NEXT_PUBLIC_SENDGRID_API_KEY
+    secret: NEXT_PUBLIC_SENDGRID_API_KEY
+  - variable: NEXT_PUBLIC_GEMINI_API_KEY
+    secret: NEXT_PUBLIC_GEMINI_API_KEY
